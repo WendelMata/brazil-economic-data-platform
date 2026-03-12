@@ -36,17 +36,19 @@ O pipeline segue o padrão **Medallion Architecture (Bronze → Silver → Gold)
 
 ## Pipeline Execution Flow
 
-02_ingest_bcb  
-↓  
-03_ingest_ibge  
-↓  
-04_bronze_to_silver  
-↓  
-05_silver_to_gold  
-↓  
-06_quality_checks  
-↓  
+```
+02_ingest_bcb
+↓
+03_ingest_ibge
+↓
+04_bronze_to_silver
+↓
+05_silver_to_gold
+↓
+06_quality_checks
+↓
 07_analytical_queries
+```
 
 # Estrutura do Projeto
 
