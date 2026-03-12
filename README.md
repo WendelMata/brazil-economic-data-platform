@@ -1,5 +1,11 @@
 # Brazil Economic Data Platform
 
+![Databricks](https://img.shields.io/badge/Databricks-Data%20Platform-orange)
+![PySpark](https://img.shields.io/badge/PySpark-Big%20Data-yellow)
+![Delta Lake](https://img.shields.io/badge/Delta-Lake-blue)
+![SQL](https://img.shields.io/badge/SQL-Analytics-lightgrey)
+![Data Engineering](https://img.shields.io/badge/Data-Engineering-green)
+
 Pipeline de engenharia de dados desenvolvido em **Databricks + PySpark** utilizando arquitetura **Medallion (Bronze → Silver → Gold)** para ingestão, transformação e análise de indicadores macroeconômicos do Brasil.
 
 O projeto integra dados de duas fontes oficiais:
@@ -111,7 +117,7 @@ Exemplo de consulta analítica sobre os indicadores.
 
 # Autor
 
-Wendel Mata
+Wendel Mata  
 Data Engineering Student
 
 LinkedIn:
