@@ -28,6 +28,12 @@ Indicadores utilizados:
 O pipeline segue o padrão **Medallion Architecture (Bronze → Silver → Gold)**, onde os dados são ingeridos em estado bruto, transformados e padronizados na camada Silver, e modelados analiticamente na camada Gold para consumo analítico.
 ---
 
+### Camadas do Pipeline
+
+- **Bronze:** ingestão de dados brutos provenientes das APIs do BCB e IBGE.
+- **Silver:** limpeza, padronização e unificação dos indicadores econômicos.
+- **Gold:** modelagem analítica com tabelas fato e dimensões para análises históricas.
+
 # Estrutura do Projeto
 
 ```
