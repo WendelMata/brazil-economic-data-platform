@@ -25,12 +25,7 @@ Indicadores utilizados:
 
 ![Architecture Diagram](02-docs/images/architecture_medallion_pipeline.png)
 
-O pipeline segue o padrão **Medallion Architecture**.
-
-Bronze → ingestão de dados brutos
-Silver → padronização e unificação
-Gold → modelo analítico para consumo
-
+O pipeline segue o padrão **Medallion Architecture (Bronze → Silver → Gold)**, onde os dados são ingeridos em estado bruto, transformados e padronizados na camada Silver, e modelados analiticamente na camada Gold para consumo analítico.
 ---
 
 # Estrutura do Projeto
