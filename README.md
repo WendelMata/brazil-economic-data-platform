@@ -23,6 +23,8 @@ Indicadores utilizados:
 
 # Arquitetura do Projeto
 
+![Architecture Diagram](02-docs/images/architecture_medallion_pipeline.png)
+
 O pipeline segue o padrão **Medallion Architecture**.
 
 Bronze → ingestão de dados brutos
